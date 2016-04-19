@@ -14,7 +14,7 @@ $quitmsg = "Leaving";
 $log_format = "d.m H:i";
 $info["owner"] = $owner;
 $info["commands"] = $c . "info, " . $c . "urlencode " . $c . "urldecode";
-$info["admin_commands"] = $c . "quit, " . $c . "nick, ";
+$info["admin_commands"] = $c . "quit, " . $c . "nick, " . $c . "kick";
 // Config end
 
 $dir = "bot_functions/";

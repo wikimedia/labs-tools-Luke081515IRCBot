@@ -1,5 +1,5 @@
 <?php
-$bot->add_hook("KICK", "ircbot_kicked");
+$bot->add_hook("KICKED", "ircbot_kicked");
 
 function ircbot_kicked($object, $command, $params, $prefix) {
 	global $channel;
